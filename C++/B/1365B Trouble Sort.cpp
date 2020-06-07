@@ -35,13 +35,11 @@ void solve() {
                 }
 
                 if ( flag == false ) {
-                        // cout << "already" << endl; 
                         cout << "yes\n";
                         continue;
                 }
 
                 if ( all0 == n || all1 == n ) {
-                        // cout << all0 << " " << all1 << endl; 
                         cout << "no\n";
                         continue;
                 }
