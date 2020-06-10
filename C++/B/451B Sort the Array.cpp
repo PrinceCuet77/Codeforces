@@ -10,7 +10,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void solve() { // 451B Sort the Array.cpp
+void solve() { 
         int n; 
         while ( cin >> n ) {
                 int a[n], b[n]; 
@@ -59,10 +59,7 @@ int main()
         //         freopen("output.txt", "w", stdout);
         // #endif
 
-        // int tc;
-        // cin >> tc;
-        // while ( tc-- )
-                solve();
+        solve();
 
         return 0;
 }
